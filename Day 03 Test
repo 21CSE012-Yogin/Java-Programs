@@ -6,7 +6,7 @@ public class Main
         int year;
         Scanner reader = new Scanner(System.in);
         System.out.println("Enter the year : ");
-        year = reader.nextInt();
+        int year = reader.nextInt();
         boolean leap = false;
         if (year % 4 == 0) 
         {
