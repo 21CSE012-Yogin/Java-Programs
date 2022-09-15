@@ -1,0 +1,21 @@
+import java.util.Scanner;  
+public class Main   
+{  
+    public static void main(String args[])  
+    {
+        int 
+        int getNumber;
+        int digit;
+        int sum = 0;  
+        Scanner reader = new Scanner(System.in);  
+        System.out.print(" Enter the number : ");  
+        getNumber = reader.nextInt();  
+        while( getNumber > 0 )   
+        {  
+            digit = getNumber % 10; 
+            sum = sum + digit;  
+            getNumber = getNumber / 10;  
+        }  
+        System.out.println(" Sum of Digits: " +sum);  
+    }  
+}
