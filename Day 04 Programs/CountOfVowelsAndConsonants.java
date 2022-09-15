@@ -12,7 +12,7 @@ public class CountOfVowelsAndConsonants
             			String str1 = br.readLine();
             			String c = " ";
             			String v = " ";
-			int x = str1.length();
+				int x = str1.length();
           			int i;
           			for(i = 0 ; i < x ; i++)
           			{
